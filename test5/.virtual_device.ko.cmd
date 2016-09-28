@@ -1,0 +1,1 @@
+cmd_/usr/src/modulTest/test5/virtual_device.ko := ld -r -m elf_i386  --build-id -o /usr/src/modulTest/test5/virtual_device.ko /usr/src/modulTest/test5/virtual_device.o /usr/src/modulTest/test5/virtual_device.mod.o

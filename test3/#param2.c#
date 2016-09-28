@@ -1,0 +1,9 @@
+#include<linux/init.h>
+#include<linux/kernel.h>
+#include<linux/module.h>
+int b[]={1,2,3,4,5};
+module_param_array(b, int, NULL, 0);
+int __init init_param2(void){
+  printk("module message param2\n");
+  printk(
+}

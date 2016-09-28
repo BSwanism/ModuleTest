@@ -1,0 +1,2 @@
+0x00000000	add	/usr/src/modulTest/test2/callee	EXPORT_SYMBOL
+0x00000000	sub	/usr/src/modulTest/test2/callee	EXPORT_SYMBOL
